@@ -1,3 +1,4 @@
+# Adriana Silva R11709775 CS-3361-002 Date: 12/2/2022
 import argparse
 from multiprocessing import Pool
 
@@ -134,7 +135,7 @@ def main():
   matrix = []
 
   for x in inputFile:
-    if x:
+    if len(x)>1:
       row2 = []
       row2[:] = x
       matrix.append(row2)
